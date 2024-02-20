@@ -69,26 +69,41 @@ include CMakeFiles/Chess.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chess.dir/flags.make
 
-CMakeFiles/Chess.dir/src/Board_representation.cpp.obj: CMakeFiles/Chess.dir/flags.make
-CMakeFiles/Chess.dir/src/Board_representation.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
-CMakeFiles/Chess.dir/src/Board_representation.cpp.obj: C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/Board_representation.cpp
-CMakeFiles/Chess.dir/src/Board_representation.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/src/Board_representation.cpp.obj"
-	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/Board_representation.cpp.obj -MF CMakeFiles/Chess.dir/src/Board_representation.cpp.obj.d -o CMakeFiles/Chess.dir/src/Board_representation.cpp.obj -c C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/Board_representation.cpp
+CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj: CMakeFiles/Chess.dir/flags.make
+CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
+CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj: C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/ChessBoard.cpp
+CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj"
+	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj -MF CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj.d -o CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj -c C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/ChessBoard.cpp
 
-CMakeFiles/Chess.dir/src/Board_representation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chess.dir/src/Board_representation.cpp.i"
-	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/Board_representation.cpp > CMakeFiles/Chess.dir/src/Board_representation.cpp.i
+CMakeFiles/Chess.dir/src/ChessBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chess.dir/src/ChessBoard.cpp.i"
+	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/ChessBoard.cpp > CMakeFiles/Chess.dir/src/ChessBoard.cpp.i
 
-CMakeFiles/Chess.dir/src/Board_representation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/src/Board_representation.cpp.s"
-	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/Board_representation.cpp -o CMakeFiles/Chess.dir/src/Board_representation.cpp.s
+CMakeFiles/Chess.dir/src/ChessBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/src/ChessBoard.cpp.s"
+	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/ChessBoard.cpp -o CMakeFiles/Chess.dir/src/ChessBoard.cpp.s
+
+CMakeFiles/Chess.dir/src/Move.cpp.obj: CMakeFiles/Chess.dir/flags.make
+CMakeFiles/Chess.dir/src/Move.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
+CMakeFiles/Chess.dir/src/Move.cpp.obj: C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/Move.cpp
+CMakeFiles/Chess.dir/src/Move.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chess.dir/src/Move.cpp.obj"
+	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/src/Move.cpp.obj -MF CMakeFiles/Chess.dir/src/Move.cpp.obj.d -o CMakeFiles/Chess.dir/src/Move.cpp.obj -c C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/Move.cpp
+
+CMakeFiles/Chess.dir/src/Move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chess.dir/src/Move.cpp.i"
+	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/Move.cpp > CMakeFiles/Chess.dir/src/Move.cpp.i
+
+CMakeFiles/Chess.dir/src/Move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chess.dir/src/Move.cpp.s"
+	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/src/Move.cpp -o CMakeFiles/Chess.dir/src/Move.cpp.s
 
 CMakeFiles/Chess.dir/main.cpp.obj: CMakeFiles/Chess.dir/flags.make
 CMakeFiles/Chess.dir/main.cpp.obj: CMakeFiles/Chess.dir/includes_CXX.rsp
 CMakeFiles/Chess.dir/main.cpp.obj: C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/main.cpp
 CMakeFiles/Chess.dir/main.cpp.obj: CMakeFiles/Chess.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Chess.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chess.dir/main.cpp.obj"
 	C:/Users/mateu/Downloads/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chess.dir/main.cpp.obj -MF CMakeFiles/Chess.dir/main.cpp.obj.d -o CMakeFiles/Chess.dir/main.cpp.obj -c C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/main.cpp
 
 CMakeFiles/Chess.dir/main.cpp.i: cmake_force
@@ -101,13 +116,15 @@ CMakeFiles/Chess.dir/main.cpp.s: cmake_force
 
 # Object files for target Chess
 Chess_OBJECTS = \
-"CMakeFiles/Chess.dir/src/Board_representation.cpp.obj" \
+"CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj" \
+"CMakeFiles/Chess.dir/src/Move.cpp.obj" \
 "CMakeFiles/Chess.dir/main.cpp.obj"
 
 # External object files for target Chess
 Chess_EXTERNAL_OBJECTS =
 
-Chess.exe: CMakeFiles/Chess.dir/src/Board_representation.cpp.obj
+Chess.exe: CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj
+Chess.exe: CMakeFiles/Chess.dir/src/Move.cpp.obj
 Chess.exe: CMakeFiles/Chess.dir/main.cpp.obj
 Chess.exe: CMakeFiles/Chess.dir/build.make
 Chess.exe: _deps/sfml-build/lib/libsfml-graphics.a
@@ -116,7 +133,7 @@ Chess.exe: _deps/sfml-build/lib/libsfml-system.a
 Chess.exe: _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a
 Chess.exe: CMakeFiles/Chess.dir/linkLibs.rsp
 Chess.exe: CMakeFiles/Chess.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Chess.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Chess.exe"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copy OpenAL DLL"
 	"C:/Program Files/CMake/bin/cmake.exe" -E copy C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/extlibs/bin/x64/openal32.dll C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/Chess.dir/objects.a

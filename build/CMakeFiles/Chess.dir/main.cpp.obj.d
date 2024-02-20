@@ -1,6 +1,7 @@
 CMakeFiles/Chess.dir/main.cpp.obj: \
  C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/main.cpp \
- C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/include/Board_representation.h \
+ C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/include/ChessBoard.h \
+ C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/include/Move.h \
  C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/include/SFML/Graphics.hpp \
  C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/include/SFML/Window.hpp \
  C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/include/SFML/System.hpp \
@@ -253,4 +254,7 @@ CMakeFiles/Chess.dir/main.cpp.obj: \
  C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/include/SFML/Graphics/Glsl.inl \
  C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
  C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/include/SFML/Graphics/Text.hpp \
- C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp
+ C:/Users/mateu/OneDrive/Dokumenty/GitHub/Chess/build/_deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+ c:\users\mateu\downloads\mingw\include\c++\11.2.0\iostream \
+ c:\users\mateu\downloads\mingw\include\c++\11.2.0\istream \
+ c:\users\mateu\downloads\mingw\include\c++\11.2.0\bits\istream.tcc

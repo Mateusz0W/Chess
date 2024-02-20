@@ -296,29 +296,53 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Board_representation.obj: src/Board_representation.cpp.obj
-.PHONY : src/Board_representation.obj
+src/ChessBoard.obj: src/ChessBoard.cpp.obj
+.PHONY : src/ChessBoard.obj
 
 # target to build an object file
-src/Board_representation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/Board_representation.cpp.obj
-.PHONY : src/Board_representation.cpp.obj
+src/ChessBoard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/ChessBoard.cpp.obj
+.PHONY : src/ChessBoard.cpp.obj
 
-src/Board_representation.i: src/Board_representation.cpp.i
-.PHONY : src/Board_representation.i
+src/ChessBoard.i: src/ChessBoard.cpp.i
+.PHONY : src/ChessBoard.i
 
 # target to preprocess a source file
-src/Board_representation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/Board_representation.cpp.i
-.PHONY : src/Board_representation.cpp.i
+src/ChessBoard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/ChessBoard.cpp.i
+.PHONY : src/ChessBoard.cpp.i
 
-src/Board_representation.s: src/Board_representation.cpp.s
-.PHONY : src/Board_representation.s
+src/ChessBoard.s: src/ChessBoard.cpp.s
+.PHONY : src/ChessBoard.s
 
 # target to generate assembly for a file
-src/Board_representation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/Board_representation.cpp.s
-.PHONY : src/Board_representation.cpp.s
+src/ChessBoard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/ChessBoard.cpp.s
+.PHONY : src/ChessBoard.cpp.s
+
+src/Move.obj: src/Move.cpp.obj
+.PHONY : src/Move.obj
+
+# target to build an object file
+src/Move.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/Move.cpp.obj
+.PHONY : src/Move.cpp.obj
+
+src/Move.i: src/Move.cpp.i
+.PHONY : src/Move.i
+
+# target to preprocess a source file
+src/Move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/Move.cpp.i
+.PHONY : src/Move.cpp.i
+
+src/Move.s: src/Move.cpp.s
+.PHONY : src/Move.s
+
+# target to generate assembly for a file
+src/Move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/Move.cpp.s
+.PHONY : src/Move.cpp.s
 
 # Help Target
 help:
@@ -344,9 +368,12 @@ help:
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Board_representation.obj"
-	@echo "... src/Board_representation.i"
-	@echo "... src/Board_representation.s"
+	@echo "... src/ChessBoard.obj"
+	@echo "... src/ChessBoard.i"
+	@echo "... src/ChessBoard.s"
+	@echo "... src/Move.obj"
+	@echo "... src/Move.i"
+	@echo "... src/Move.s"
 .PHONY : help
 
 
